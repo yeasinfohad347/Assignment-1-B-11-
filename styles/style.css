@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Fira Sans;
+    
+}
+/* Navigation section */
+.navigation{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 160px;
+    
+}
+.nav-title{
+    color: rgba(14, 14, 14, 1.00);
+    font-size: 32px;
+    font-weight: 700;
+}
+.btn{
+    color: rgba(0, 106, 80, 1.00);
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 106, 80, 1.00);
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Hero section */
+.hero-section{
+    background: rgb(198, 228, 214);
+    margin: 10px 160px;
+    padding: 80px 60px;
+    display: flex;
+    border-radius: 24px;
+    gap: 10px;
+    
+}
+
+.hero-title{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+.hero-description{
+    margin-top: 16px;
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(14,14,14);
+}
+.explore-btn{
+    margin-top: 24px;
+    padding: 17px 34px;
+    color: rgba(255, 255, 255, 1.00);
+    background-color: rgba(0, 106, 80, 1.00);
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
