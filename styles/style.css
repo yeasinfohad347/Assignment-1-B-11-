@@ -2,9 +2,13 @@
     margin: 0px;
     padding: 0px;
     font-family: Fira Sans;
+    /* background: rgb(245, 245, 245); */
     
 }
 /* Navigation section */
+body{
+    background: rgb(245, 245, 245);
+}
 .navigation{
     background-color: rgb(245, 245, 245);
     display: flex;
@@ -93,4 +97,130 @@ main{
     color: rgba(14, 14, 14, 0.80);
     margin-top: 24px;
     margin-bottom: 12px;
+}
+/* design for Vision Section */
+.vision{
+    margin-top:70px ;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 32px;
+}
+.vision-section{
+    display: flex;
+    gap: 24px;
+}
+.vision-card{
+    padding: 32px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    width: 410px;
+    height: 325px;
+    
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px 0 12px 0;
+    color: rgba(14, 14, 14, 0.70);
+}
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.card-button{
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+.card-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.card-2{
+    background: rgb(198, 228, 214);
+}
+.card-3{
+    background-color: rgb(247, 235, 207);
+}
+.color-1{
+    background-color: rgb(84, 144, 245);
+}
+.color-2{
+    background: rgb(9, 161, 92);
+}
+.color-3{
+    background: rgb(255, 194, 57);
+}
+/* About Dr Muhammad Yunus  */
+.about{
+    margin-top: 32px;
+    padding: 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.about-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.80);
+    margin-bottom: 12px;
+}
+.name-0f-cheif{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.subtitle{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}    
+/* opinion table */
+table{
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+}
+th,td{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: left;
+}
+.container{
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.table-container{
+    padding: 32px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    /* width: 1280px;
+    height: 409px; */
+}
+th{
+    background: rgb(198, 228, 214)
+}
+.heading-2{
+    border-left: none;
+    padding-left:0px ;
+}
+.heading-1{
+    border-right: none;
+}
+select{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgba(9, 161, 92, 0.15);
+    padding: 10px 14px 10px 14px;
+}
+.t2{
+    text-align: center;
 }
