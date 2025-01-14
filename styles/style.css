@@ -62,3 +62,35 @@
     font-size: 16px;
     font-weight: 600;
 }
+/* code start from here for main section */
+main{
+    padding: 0px 160px;
+}
+.pillars{
+    margin-top: 80px;
+}
+.main-section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14,14,14);
+    margin-bottom: 26px;
+}
+.pillar-section{
+    display: flex;
+    gap: 10px;
+}
+/* design of pillars card */
+.pillar-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+.pillar-card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.80);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
