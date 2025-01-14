@@ -65,6 +65,10 @@ body{
     border: none;
     font-size: 16px;
     font-weight: 600;
+    transition: .9s;
+}
+.explore-btn:hover{
+    background-color: rgb(23, 69, 58);
 }
 /* code start from here for main section */
 main{
@@ -90,6 +94,10 @@ main{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 24px;
+    transition: .8s;
+}
+.pillar-card:hover{
+    background-color: rgb(59, 180, 255);
 }
 .pillar-card-title{
     font-size: 20px;
@@ -116,7 +124,11 @@ main{
     box-sizing: border-box;
     width: 410px;
     height: 325px;
+    transition: 1s;
     
+}
+.vision-card:hover{
+    background-color: rgb(125, 210, 137);
 }
 .card-title{
     font-size: 20px;
@@ -134,6 +146,7 @@ main{
     border-radius: 8px;
     padding: 11px 20px 11px 20px;
     border: none;
+    transition: .1s;
 }
 .card-1{
     background: rgba(84, 144, 245, 0.2);
@@ -153,6 +166,10 @@ main{
 .color-3{
     background: rgb(255, 194, 57);
 }
+.card-button:hover{
+    background-color: rgb(141, 146, 148);
+}
+
 /* About Dr Muhammad Yunus  */
 .about{
     margin-top: 32px;
@@ -201,8 +218,6 @@ th,td{
     padding: 32px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    /* width: 1280px;
-    height: 409px; */
 }
 th{
     background: rgb(198, 228, 214)
@@ -274,6 +289,10 @@ select{
     background: rgb(0, 106, 80);
     padding: 13px 26px 13px 26px;
     border: none;
+    transition: .5s;
+ }
+ .news-btn:hover{
+    background-color: rgb(51, 159, 63);
  }
  /* design for Dination part */
 .donete-section{
@@ -294,6 +313,7 @@ select{
     align-items: center;
     gap: 24px;
  }
+ 
  .taka{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -303,6 +323,10 @@ select{
     font-size: 40px;
     font-weight: 700;
     padding: 40px;
+    transition: .8s;
+ }
+ .taka:hover{
+    background-color: rgb(21, 171, 121);
  }
  .taka-2{
     background: rgb(198, 228, 214);
@@ -357,6 +381,10 @@ select{
     font-weight: 600;
     margin-left: 0px;
     border: none;
+    transition: .5s;
+ }
+ .subs-btn:hover{
+    background-color: rgb(43, 174, 102);
  }
  #subs-foot{
     color: rgba(14, 14, 14, 0.7);
@@ -381,5 +409,5 @@ select{
  .icon-box{
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
  }
