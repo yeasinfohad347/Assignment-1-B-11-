@@ -32,6 +32,11 @@ body{
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 600;
+    transition: 0.8s;
+}
+.btn:hover{
+    background-color: rgb(7, 122, 72);
+    color: white;
 }
 /* Hero section */
 .hero-section{
