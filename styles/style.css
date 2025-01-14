@@ -275,3 +275,111 @@ select{
     padding: 13px 26px 13px 26px;
     border: none;
  }
+ /* design for Dination part */
+.donete-section{
+    margin-top: 80px;
+    text-align: center;
+}
+ .donate-desc{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+ }
+.donate-card{
+    margin: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+ }
+ .taka{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+ }
+ .taka-2{
+    background: rgb(198, 228, 214);
+ }
+ #enter-tk{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+    width: 80%;
+    margin-bottom: 32px;
+    text-align: center;
+ }
+ /* Design for subscription section */
+ .subscribe-section{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    margin-top: 80px;
+    text-align: center;
+
+ }
+ .sub-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    
+ }
+ .subs-desc{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    
+ }
+ #entry{
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    border: none;
+    width: 60%;
+ }
+ .subs-btn{
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 14px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 0px;
+    border: none;
+ }
+ #subs-foot{
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ /* Footer section */
+ .webs-foot{
+    padding: 50px 160px;
+    background: rgb(255, 255, 255);
+    margin-top: 80px;
+    text-align: center;
+ }
+ .webs-title{
+    margin: 30px 0;
+ }
+ hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin-bottom: 30px;
+ }
+ .icon-box{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+ }
